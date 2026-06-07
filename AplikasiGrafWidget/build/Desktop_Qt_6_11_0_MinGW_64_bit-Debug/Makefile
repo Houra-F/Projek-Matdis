@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = D:\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\AplikasiGrafWidget
+CMAKE_SOURCE_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-De
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	C:\Qt\Tools\CMake_64\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Qt\Tools\CMake_64\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -96,44 +96,44 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,54 @@ AplikasiGrafWidget_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.s
 .PHONY : AplikasiGrafWidget_autogen/mocs_compilation.cpp.s
 
+dijkstra.obj: dijkstra.cpp.obj
+.PHONY : dijkstra.obj
+
+# target to build an object file
+dijkstra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj
+.PHONY : dijkstra.cpp.obj
+
+dijkstra.i: dijkstra.cpp.i
+.PHONY : dijkstra.i
+
+# target to preprocess a source file
+dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.i
+.PHONY : dijkstra.cpp.i
+
+dijkstra.s: dijkstra.cpp.s
+.PHONY : dijkstra.s
+
+# target to generate assembly for a file
+dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.s
+.PHONY : dijkstra.cpp.s
+
+graphcanvas.obj: graphcanvas.cpp.obj
+.PHONY : graphcanvas.obj
+
+# target to build an object file
+graphcanvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj
+.PHONY : graphcanvas.cpp.obj
+
+graphcanvas.i: graphcanvas.cpp.i
+.PHONY : graphcanvas.i
+
+# target to preprocess a source file
+graphcanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.i
+.PHONY : graphcanvas.cpp.i
+
+graphcanvas.s: graphcanvas.cpp.s
+.PHONY : graphcanvas.s
+
+# target to generate assembly for a file
+graphcanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplikasiGrafWidget.dir\build.make CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.s
+.PHONY : graphcanvas.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -289,6 +337,12 @@ help:
 	@echo ... AplikasiGrafWidget_autogen/mocs_compilation.obj
 	@echo ... AplikasiGrafWidget_autogen/mocs_compilation.i
 	@echo ... AplikasiGrafWidget_autogen/mocs_compilation.s
+	@echo ... dijkstra.obj
+	@echo ... dijkstra.i
+	@echo ... dijkstra.s
+	@echo ... graphcanvas.obj
+	@echo ... graphcanvas.i
+	@echo ... graphcanvas.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = D:\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\AplikasiGrafWidget
+CMAKE_SOURCE_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AplikasiGrafWidget.dir/depend.make
@@ -68,63 +68,95 @@ include CMakeFiles/AplikasiGrafWidget.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AplikasiGrafWidget.dir/flags.make
 
-AplikasiGrafWidget_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/moc.exe
-AplikasiGrafWidget_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/uic.exe
+AplikasiGrafWidget_autogen/timestamp: D:/Qt/6.11.0/mingw_64/bin/moc.exe
+AplikasiGrafWidget_autogen/timestamp: D:/Qt/6.11.0/mingw_64/bin/uic.exe
 AplikasiGrafWidget_autogen/timestamp: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target AplikasiGrafWidget"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/AplikasiGrafWidget/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/AplikasiGrafWidget_autogen.dir/AutogenInfo.json Debug
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/AplikasiGrafWidget/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/AplikasiGrafWidget_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target AplikasiGrafWidget"
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "E:/aiyla kuliah/Projek-Matdis/AplikasiGrafWidget/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/AplikasiGrafWidget_autogen.dir/AutogenInfo.json" Debug
+	D:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "E:/aiyla kuliah/Projek-Matdis/AplikasiGrafWidget/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/AplikasiGrafWidget_autogen/timestamp"
 
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/flags.make
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/includes_CXX.rsp
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj: AplikasiGrafWidget_autogen/mocs_compilation.cpp
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.obj -c D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.obj -c "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp"
 
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp > CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.i
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp" > CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp -o CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.s
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\AplikasiGrafWidget_autogen\mocs_compilation.cpp" -o CMakeFiles\AplikasiGrafWidget.dir\AplikasiGrafWidget_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/flags.make
 CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/includes_CXX.rsp
-CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj: D:/AplikasiGrafWidget/main.cpp
+CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj: E:/aiyla\ kuliah/Projek-Matdis/AplikasiGrafWidget/main.cpp
 CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\main.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\main.cpp.obj -c D:\AplikasiGrafWidget\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\main.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\main.cpp.obj -c "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\main.cpp"
 
 CMakeFiles/AplikasiGrafWidget.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiGrafWidget.dir/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AplikasiGrafWidget\main.cpp > CMakeFiles\AplikasiGrafWidget.dir\main.cpp.i
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\main.cpp" > CMakeFiles\AplikasiGrafWidget.dir\main.cpp.i
 
 CMakeFiles/AplikasiGrafWidget.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiGrafWidget.dir/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AplikasiGrafWidget\main.cpp -o CMakeFiles\AplikasiGrafWidget.dir\main.cpp.s
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\main.cpp" -o CMakeFiles\AplikasiGrafWidget.dir\main.cpp.s
 
 CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/flags.make
 CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/includes_CXX.rsp
-CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj: D:/AplikasiGrafWidget/mainwindow.cpp
+CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj: E:/aiyla\ kuliah/Projek-Matdis/AplikasiGrafWidget/mainwindow.cpp
 CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.obj -c D:\AplikasiGrafWidget\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.obj -c "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\mainwindow.cpp"
 
 CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AplikasiGrafWidget\mainwindow.cpp > CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.i
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\mainwindow.cpp" > CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.i
 
 CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AplikasiGrafWidget\mainwindow.cpp -o CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.s
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\mainwindow.cpp" -o CMakeFiles\AplikasiGrafWidget.dir\mainwindow.cpp.s
+
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/flags.make
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/includes_CXX.rsp
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj: E:/aiyla\ kuliah/Projek-Matdis/AplikasiGrafWidget/graphcanvas.cpp
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\graphcanvas.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\graphcanvas.cpp.obj -c "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\graphcanvas.cpp"
+
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\graphcanvas.cpp" > CMakeFiles\AplikasiGrafWidget.dir\graphcanvas.cpp.i
+
+CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\graphcanvas.cpp" -o CMakeFiles\AplikasiGrafWidget.dir\graphcanvas.cpp.s
+
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/flags.make
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/includes_CXX.rsp
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj: E:/aiyla\ kuliah/Projek-Matdis/AplikasiGrafWidget/dijkstra.cpp
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj: CMakeFiles/AplikasiGrafWidget.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj -MF CMakeFiles\AplikasiGrafWidget.dir\dijkstra.cpp.obj.d -o CMakeFiles\AplikasiGrafWidget.dir\dijkstra.cpp.obj -c "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\dijkstra.cpp"
+
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\dijkstra.cpp" > CMakeFiles\AplikasiGrafWidget.dir\dijkstra.cpp.i
+
+CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\dijkstra.cpp" -o CMakeFiles\AplikasiGrafWidget.dir\dijkstra.cpp.s
 
 # Object files for target AplikasiGrafWidget
 AplikasiGrafWidget_OBJECTS = \
 "CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj" \
-"CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj"
+"CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj" \
+"CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj" \
+"CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj"
 
 # External object files for target AplikasiGrafWidget
 AplikasiGrafWidget_EXTERNAL_OBJECTS =
@@ -132,15 +164,17 @@ AplikasiGrafWidget_EXTERNAL_OBJECTS =
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/AplikasiGrafWidget_autogen/mocs_compilation.cpp.obj
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/main.cpp.obj
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/mainwindow.cpp.obj
+AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/graphcanvas.cpp.obj
+AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/dijkstra.cpp.obj
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/build.make
-AplikasiGrafWidget.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Widgets.a
-AplikasiGrafWidget.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Gui.a
-AplikasiGrafWidget.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Core.a
-AplikasiGrafWidget.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6EntryPoint.a
+AplikasiGrafWidget.exe: D:/Qt/6.11.0/mingw_64/lib/libQt6Widgets.a
+AplikasiGrafWidget.exe: D:/Qt/6.11.0/mingw_64/lib/libQt6Gui.a
+AplikasiGrafWidget.exe: D:/Qt/6.11.0/mingw_64/lib/libQt6Core.a
+AplikasiGrafWidget.exe: D:/Qt/6.11.0/mingw_64/lib/libQt6EntryPoint.a
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/linkLibs.rsp
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/objects1.rsp
 AplikasiGrafWidget.exe: CMakeFiles/AplikasiGrafWidget.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AplikasiGrafWidget.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AplikasiGrafWidget.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AplikasiGrafWidget.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,6 +186,6 @@ CMakeFiles/AplikasiGrafWidget.dir/clean:
 .PHONY : CMakeFiles/AplikasiGrafWidget.dir/clean
 
 CMakeFiles/AplikasiGrafWidget.dir/depend: AplikasiGrafWidget_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\AplikasiGrafWidget D:\AplikasiGrafWidget D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles\AplikasiGrafWidget.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles\AplikasiGrafWidget.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/AplikasiGrafWidget.dir/depend
 

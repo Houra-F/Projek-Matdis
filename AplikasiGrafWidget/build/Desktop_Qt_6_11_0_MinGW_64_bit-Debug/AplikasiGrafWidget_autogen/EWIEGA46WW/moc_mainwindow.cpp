@@ -32,63 +32,6 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN11GraphCanvasE_t {};
-} // unnamed namespace
-
-template <> constexpr inline auto GraphCanvas::qt_create_metaobjectdata<qt_meta_tag_ZN11GraphCanvasE_t>()
-{
-    namespace QMC = QtMocConstants;
-    QtMocHelpers::StringRefStorage qt_stringData {
-        "GraphCanvas"
-    };
-
-    QtMocHelpers::UintData qt_methods {
-    };
-    QtMocHelpers::UintData qt_properties {
-    };
-    QtMocHelpers::UintData qt_enums {
-    };
-    return QtMocHelpers::metaObjectData<GraphCanvas, qt_meta_tag_ZN11GraphCanvasE_t>(QMC::MetaObjectFlag{}, qt_stringData,
-            qt_methods, qt_properties, qt_enums);
-}
-Q_CONSTINIT const QMetaObject GraphCanvas::staticMetaObject = { {
-    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11GraphCanvasE_t>.stringdata,
-    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11GraphCanvasE_t>.data,
-    qt_static_metacall,
-    nullptr,
-    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN11GraphCanvasE_t>.metaTypes,
-    nullptr
-} };
-
-void GraphCanvas::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    auto *_t = static_cast<GraphCanvas *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
-}
-
-const QMetaObject *GraphCanvas::metaObject() const
-{
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
-}
-
-void *GraphCanvas::qt_metacast(const char *_clname)
-{
-    if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN11GraphCanvasE_t>.strings))
-        return static_cast<void*>(this);
-    return QWidget::qt_metacast(_clname);
-}
-
-int GraphCanvas::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
-{
-    _id = QWidget::qt_metacall(_c, _id, _a);
-    return _id;
-}
-namespace {
 struct qt_meta_tag_ZN10MainWindowE_t {};
 } // unnamed namespace
 
@@ -97,12 +40,12 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "MainWindow",
-        "onHitungRuteClicked",
+        "hitungRute",
         ""
     };
 
     QtMocHelpers::UintData qt_methods {
-        // Slot 'onHitungRuteClicked'
+        // Slot 'hitungRute'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
@@ -127,7 +70,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     auto *_t = static_cast<MainWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->onHitungRuteClicked(); break;
+        case 0: _t->hitungRute(); break;
         default: ;
         }
     }

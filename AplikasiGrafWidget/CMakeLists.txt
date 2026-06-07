@@ -23,6 +23,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(AplikasiGrafWidget
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        graphcanvas.h
+        graphcanvas.cpp
+        dijkstra.cpp
+        dijkstra.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET AplikasiGrafWidget APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

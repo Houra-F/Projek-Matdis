@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = D:\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\AplikasiGrafWidget
+CMAKE_SOURCE_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug"
 
 # Utility rule file for AplikasiGrafWidget_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/AplikasiGrafWidget_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/AplikasiGrafWidget_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/AplikasiGrafWidget_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\AplikasiGrafWidget D:\AplikasiGrafWidget D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug D:\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles\AplikasiGrafWidget_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug" "E:\aiyla kuliah\Projek-Matdis\AplikasiGrafWidget\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles\AplikasiGrafWidget_autogen_timestamp_deps.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/AplikasiGrafWidget_autogen_timestamp_deps.dir/depend
 
